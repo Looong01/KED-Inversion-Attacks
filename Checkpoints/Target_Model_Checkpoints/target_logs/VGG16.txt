@@ -1,0 +1,23 @@
+VGG16.txt
+---------------------Training [VGG16]---------------------
+-----------------------------------------------------------------
+Running time: 2023-09-22_01-06-12
+name: celeba
+train_file_path: ./Datasets/Celeba/trainset.txt
+test_file_path: ./Datasets/Celeba/testset.txt
+img_path: ./Datasets/Celeba/Img/img_align_celeba_png
+model_name: VGG16
+mode: reg
+n_classes: 1000
+gpus: 0
+epochs: 50
+batch_size: 64
+instance: 4
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0001
+gamma: 0.2
+adjust_epochs: [20, 35]
+-----------------------------------------------------------------
+Load 202599 images
+Initializing data loader took 2691s
